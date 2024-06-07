@@ -1,0 +1,42 @@
+ Program
+   Robot Program
+     Gripper Activate
+     Gripper Open (1)
+     MoveJ
+       security_pose
+       preprebat
+       replacement_bat
+     MoveL
+       pre_battery
+       battery_r
+       Gripper Close (1)
+       pre_battery
+       replacement_bat
+       rotation
+       MoveJ
+         preprebat
+         security_pose
+         pre_charger1
+         MoveL
+           battery_c1
+           Gripper Open (1)
+           pre_charger1
+           MoveJ
+             pre_charger2
+             MoveL
+               btattery_c2
+               Gripper Close (1)
+               pre_charger2
+               MoveJ
+                 security_pose
+                 preprebat
+                 rotation
+                 MoveL
+                   replacement_bat
+                   pre_battery
+                   battery_r
+                   Gripper Open (1)
+                   pre_battery
+                   MoveJ
+                     preprebat
+                     security_pose
